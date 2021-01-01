@@ -1,8 +1,13 @@
+./img/editor_desktop.png
+
 settings: to C/Users/<user>/AppData/Roaming/Code/User
+
 keybindings: to C/Users/<user>/AppData/Roaming/Code/User
+
 extensions:  by script cat extensions.txt | xargs code --list-extensions {} 
 
 
 dump extensions by: 
+
 code --list-extensions > extensions.txt
 
