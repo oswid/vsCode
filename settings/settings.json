@@ -1,0 +1,135 @@
+{
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "editor.minimap.enabled": false,
+
+//vim 
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+    {
+      "before": ["u", "h"],
+      "after": ["<Esc>"]
+    }
+  ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["a"],
+      "after": ["h"]
+    },
+    {
+      "before": ["o"],
+      "after": ["l"]
+    },
+    {
+      "before": ["e"],
+      "after": ["j"]
+    },
+    {
+      "before": ["u"],
+      "after": ["k"]
+    },
+    {
+      "before": ["k"],
+      "after": ["u"]
+    },
+    {
+      "before": ["l"],
+      "after": ["$"]
+    },
+    {
+      "before": ["r"],
+      "after": ["0"]
+    },
+    {
+      "before": ["R"],
+      "after": ["o"]
+    },
+    {
+      "before": ["L"],
+      "after": ["O"]
+    },
+    {
+      "before": ["i"],
+      "after": ["a"]
+    },
+    {
+      "before": ["I"],
+      "after": ["i"]
+    },
+    {
+      "before": ["s"],
+      "after": ["leader", "leader","s"]
+    },
+  ],
+  "window.menuBarVisibility": "default",
+  "editor.fontFamily": "Fira Code",
+  "workbench.colorTheme": "February Frost",
+  "window.zoomLevel": 0.6,
+  "terminal.integrated.fontSize": 12,
+  "editor.fontSize": 13,
+
+//color customization 
+  "workbench.colorCustomizations": {
+  "editor.background": "#eceff4",
+  "statusBar.noFolderBackground" : "#e5e9f0",
+  "scrollbarSlider.background": "#4750a575",
+  //"editorBracketMatch.background": "#4f81ecc5",
+  //"editorBracketMatch.border": "#ebdddd",
+
+    "terminal.ansiBlack":"#1D2021",
+    "terminal.ansiBrightBlack":"#665C54",
+    "terminal.ansiBrightBlue":"#0D6678",
+    "terminal.ansiBrightCyan":"#8BA59B",
+    "terminal.ansiBrightGreen":"#237e02",
+    "terminal.ansiBrightMagenta":"#8F4673",
+    "terminal.ansiBrightRed":"#FB543F",
+    "terminal.ansiBrightWhite":"#6e6427",
+    "terminal.ansiBrightYellow":"#daa128",
+    "terminal.ansiCyan":"#8BA59B",
+    "terminal.ansiGreen":"#3e978b",
+    "terminal.ansiMagenta":"#8F4673",
+    "terminal.ansiRed":"#FB543F",
+    "terminal.ansiWhite":"#A89984",
+    "terminal.ansiYellow":"#cf8009"
+  },
+
+  "editor.scrollbar.verticalScrollbarSize": 2,
+
+   "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+  },
+  "workbench.statusBar.visible": true,
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.visible": true,
+  "workbench.iconTheme": "vscode-icons",
+
+  "bracketPairColorizer.colorMode": "Independent",
+  "bracketPairColorizer.independentPairColors": [
+    [
+      "()",
+      [
+        "Orange"
+      ],
+      "Red" // use when right bracket is missing
+    ],
+    [
+      "[]",
+      [
+        "Purple"
+      ],
+      "Red"
+    ],
+    [
+      "{}",
+      [
+        "Blue"
+      ],
+      "Red"
+    ]
+],
+
+
+}

@@ -1,0 +1,9 @@
+christian-kohler.path-intellisense
+CoenraadS.bracket-pair-colorizer
+formulahendry.auto-close-tag
+formulahendry.auto-rename-tag
+perragnaredin.february-frost
+techer.open-in-browser
+vscode-icons-team.vscode-icons
+vscodevim.vim
+Zignd.html-css-class-completion
