@@ -1,4 +1,4 @@
-./img/editor_desktop.png
+[[./img/editor_desktop.png]]
 
 settings: to C/Users/<user>/AppData/Roaming/Code/User
 
